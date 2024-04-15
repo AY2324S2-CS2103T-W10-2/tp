@@ -103,13 +103,13 @@ Contact card | The box displayed for each contact which contains all of their re
 
 1. Ensure that you have Java `11` installed on your computer.
 
-2. Download the latest `poochplanner.jar` from [here](https://github.com/AY2324S2-CS2103T-W10-2/tp/releases).
+2. Download the latest `[CS2103T-W10-2][PoochPlanner].jar` from [here](https://github.com/AY2324S2-CS2103T-W10-2/tp/releases).
 
 3. Copy the file to the folder that you want to use as the _home folder_ for your PoochPlanner.
 
 4. Open a command terminal and navigate to the folder where you placed the jar file in.
 
-5. Use the command `java -jar poochplanner.jar` to run PoochPlanner.<br>
+5. Use the command `java -jar [CS2103T-W10-2][PoochPlanner].jar` to run PoochPlanner.<br>
 
 <br>
 
@@ -1036,12 +1036,12 @@ If you encounter a missing field error, please ensure that the fields listed in 
 **Method 1**: Using the Command Line
 1. Open the command line in your operating system's terminal software.
 2. Navigate to the directory where the JAR file is located.
-3. Enter `java -jar poochplanner.jar` and the PoochPlanner Application should launch.
+3. Enter `java -jar [CS2103T-W10-2][PoochPlanner].jar` and the PoochPlanner Application should launch.
 
 **Method 2**: Using `.bat`/`.sh` Scripts
 1. Create a new text file and paste the following line into the file:
    ```
-   java -jar [JAR file location]/poochplanner.jar
+   java -jar [JAR file location]/[CS2103T-W10-2][PoochPlanner].jar
    ```
 2. Save the file as `poochplanner.bat` (Windows) or `poochplanner.sh` (macOS/Linux).
 3. Change the admin settings of the script to allow it to run as a program:
