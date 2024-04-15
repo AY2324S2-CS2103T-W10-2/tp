@@ -136,7 +136,7 @@ Contact card | The box displayed for each contact which contains all of their re
 
 7. Refer to our [Features](#features) section below for the details of each command.
 
-[//]: # (@@author [jannaleong])
+[//]: # (@@author jannaleong)
 <div style="page-break-after: always;"></div>
 
 ## Navigating the GUI
@@ -182,7 +182,7 @@ Here is a quick look at the different GUI components of PoochPlanner.
 ### Core Features
 
 #### Adding a contact: `add`
-[//]: # (@@author [jannaleong])
+[//]: # (@@author jannaleong)
 Adds a **person / staff / supplier / maintainer** contact so that your contacts list can be updated with new contacts.
 
 The table below summarizes the `add` command, format, and examples for each contact type.
@@ -609,7 +609,7 @@ Example: <br>
 
 <div style="page-break-after: always;"></div>
 
-[//]: # (@@author [jannaleong])
+[//]: # (@@author jannaleong)
 
 #### Adding a note : `note`
 
@@ -800,7 +800,7 @@ Below is an example of redoing an <code>add</code> command :
 
 <div style="page-break-after: always;"></div>
 
-[//]: # (@@author [jannaleong])
+[//]: # (@@author jannaleong)
 
 #### Viewing help : `help`
 
@@ -982,7 +982,7 @@ Furthermore, certain manual edits that you make can cause your PoochPlanner to b
 
 <div style="page-break-after: always;"></div>
 
-[//]: # (@@author [jannaleong])
+[//]: # (@@author jannaleong)
 ## Common Errors
 ### Unknown Command
 
