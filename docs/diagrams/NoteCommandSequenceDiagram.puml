@@ -52,7 +52,7 @@ activate Model
 Model --> NoteCommand
 
 NoteCommand -> Model : setPerson(personToEdit, editedPerson)
-
+Model --> NoteCommand
 
 NoteCommand -> Model : findByName(name)
 activate Model

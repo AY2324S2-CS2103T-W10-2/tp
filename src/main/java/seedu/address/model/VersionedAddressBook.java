@@ -107,5 +107,4 @@ public class VersionedAddressBook extends AddressBook {
                 && addressBookStateList.equals(otherAddressBook.addressBookStateList)
                 && currentStatePointer == otherAddressBook.currentStatePointer;
     }
-
 }

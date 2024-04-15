@@ -65,7 +65,7 @@ This user guide is designed to help you easily navigate the commands of PoochPla
     4. **[Note](https://ay2324s2-cs2103t-w10-2.github.io/tp/UserGuide.html#adding-a-note--note)** : Add notes to your contacts.<br>
     5. **[Remind](https://ay2324s2-cs2103t-w10-2.github.io/tp/UserGuide.html#viewing-reminders--remind)** : View your contacts with notes containing incoming deadlines.<br>
 - If you want a quick overview of our commands, check out our **[Command Summary](https://ay2324s2-cs2103t-w10-2.github.io/tp/UserGuide.html#command-summary)**.
-- If you are encountering issues or have any questions about PoochPlanner, check out our **[Common Errors](https://github.com/AY2324S2-CS2103T-W10-2/tp/blob/master/docs/UserGuide.md#common-errors)** and **[FAQ](https://github.com/AY2324S2-CS2103T-W10-2/tp/blob/master/docs/UserGuide.md#faq)** for helpful troubleshooting tips and answers to the common queries.
+- If you are encountering issues or have any questions about PoochPlanner, check out our **[Common Errors](https://ay2324s2-cs2103t-w10-2.github.io/tp/UserGuide.html#command-summary)** and **[FAQ](https://ay2324s2-cs2103t-w10-2.github.io/tp/UserGuide.html#faq)** for helpful troubleshooting tips and answers to the common queries.
 
 <div style="page-break-after: always;"></div>
 
@@ -103,13 +103,13 @@ Contact card | The box displayed for each contact which contains all of their re
 
 1. Ensure that you have Java `11` installed on your computer.
 
-2. Download the latest `poochplanner.jar` from [here](https://github.com/AY2324S2-CS2103T-W10-2/tp/releases).
+2. Download the latest `[CS2103T-W10-2][PoochPlanner].jar` from [here](https://github.com/AY2324S2-CS2103T-W10-2/tp/releases).
 
 3. Copy the file to the folder that you want to use as the _home folder_ for your PoochPlanner.
 
 4. Open a command terminal and navigate to the folder where you placed the jar file in.
 
-5. Use the command `java -jar poochplanner.jar` to run PoochPlanner.<br>
+5. Use the command `java -jar [CS2103T-W10-2][PoochPlanner].jar` to run PoochPlanner.<br>
 
 <br>
 
@@ -136,7 +136,7 @@ Contact card | The box displayed for each contact which contains all of their re
 
 7. Refer to our [Features](#features) section below for the details of each command.
 
-
+[//]: # (@@author [jannaleong])
 <div style="page-break-after: always;"></div>
 
 ## Navigating the GUI
@@ -154,6 +154,8 @@ Here is a quick look at the different GUI components of PoochPlanner.
 
 
 <div style="page-break-after: always;"></div>
+
+[//]: # (@@author)
 
 ## Features
 <div markdown="block" class="alert alert-info">
@@ -180,19 +182,21 @@ Here is a quick look at the different GUI components of PoochPlanner.
 ### Core Features
 
 #### Adding a contact: `add`
-
+[//]: # (@@author [jannaleong])
 Adds a **person / staff / supplier / maintainer** contact so that your contacts list can be updated with new contacts.
 
 The table below summarizes the `add` command, format, and examples for each contact type.
 
-| Adds a ...       | Format & Examples                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Person**       | Format :<br>`/add-person ; name : [name] ; phone : [phone] ; address : [address] ; email : [email]` <br> <br> Example: <br>`/add-person ; name : Janna  ; phone : 98765435 ; address : Poochie Street 24 ; email : ihelppooches@gmail.com`<br> <br>The above command adds a `Person` contact. Person's name is **_Janna_**, phone number is **_98765435_**, address is **_Poochie Street 24_**, and email is **_ihelppooches@gmail.com_**.                                                                                                                                                                 |
-| **Staff**        | Format : <br>`/add-staff ; name : [name] ; phone : [phone] ; address : [address] ; email : [email] ; salary : [salary/hr]  ; employment : [part-time/full-time]` <br> <br> Example: <br>`/add-staff ; name : Poochie ; phone : 98765435 ; address : Poochie Street 21 ; email : ilovecatstoo@gmail.com ; salary : $50/hr ; employment : part-time`<br> <br>The above command adds a `Staff` contact. Staff's name is **_Poochie_**, phone number is **_98765435_**, address is **_Poochie Street 21_**, email is **_ilovecatstoo@gmail.com_**, salary is **_$50/hr_**, and employment is **_part-time_**.     |
-| **Supplier**     | Format : <br>`/add-supplier ; name : [name] ; phone : [phone] ; address : [address] ; email : [email] ; product : [product] ; price : [price/(quantity)]` <br> <br> Example: <br>`/add-supplier ; name : PetCo ; phone : 98673098 ; address : Meow Street 24 ; email : ilovewombatstoo@gmail.com ; product : kibble ; price : $98/bag`<br> <br> The above command adds a `Supplier` contact. Supplier's name is **_Petco_**, phone number is **_98673098_**, address is **_Meow Street 24_**, email is **_ilovewombatstoo@gmail.com_**, product is **_kibble_**, and price of product is **_$98/bag_**.      |
+| Adds a ...       | Format & Examples                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Person**       | Format :<br>`/add-person ; name : [name] ; phone : [phone] ; address : [address] ; email : [email]` <br> <br> Example: <br>`/add-person ; name : Janna  ; phone : 98765435 ; address : Poochie Street 24 ; email : ihelppooches@gmail.com`<br> <br>The above command adds a `Person` contact. Person's name is **_Janna_**, phone number is **_98765435_**, address is **_Poochie Street 24_**, and email is **_ihelppooches@gmail.com_**.                                                                                                                                                                     |
+| **Staff**        | Format : <br>`/add-staff ; name : [name] ; phone : [phone] ; address : [address] ; email : [email] ; salary : [salary/hr]  ; employment : [part-time/full-time]` <br> <br> Example: <br>`/add-staff ; name : Poochie ; phone : 98765435 ; address : Poochie Street 21 ; email : ilovecatstoo@gmail.com ; salary : $50/hr ; employment : part-time`<br> <br>The above command adds a `Staff` contact. Staff's name is **_Poochie_**, phone number is **_98765435_**, address is **_Poochie Street 21_**, email is **_ilovecatstoo@gmail.com_**, salary is **_$50/hr_**, and employment is **_part-time_**.      |
+| **Supplier**     | Format : <br>`/add-supplier ; name : [name] ; phone : [phone] ; address : [address] ; email : [email] ; product : [product] ; price : [price/(quantity)]` <br> <br> Example: <br>`/add-supplier ; name : PetCo ; phone : 98673098 ; address : Meow Street 24 ; email : ilovewombatstoo@gmail.com ; product : kibble ; price : $98/bag`<br> <br> The above command adds a `Supplier` contact. Supplier's name is **_Petco_**, phone number is **_98673098_**, address is **_Meow Street 24_**, email is **_ilovewombatstoo@gmail.com_**, product is **_kibble_**, and price of product is **_$98/bag_**.        |
 | **Maintainer**   | Format : <br>`/add-maintainer ; name : [name] ; phone : [phone] ; address : [address] ; email : [email] ; skill : [skill] ; commission : [commission/hr]` <br> <br> Example: <br>`/add-maintainer ; name : Tom Tan  ; phone : 98765435 ; address : Poochie Street 24 ; email : ihelppooches@gmail.com ; skill : trainer ; commission : $60/hr` <br> <br> The above command adds a `Maintainer` contact. Maintainer's name is **_Tom Tan_**, phone number is **_98765435_**, address is **_Poochie Street 24_**, email is **_ihelppooches@gmail.com_**, skill is **_trainer_**, and commission is **_$60/hr_**. |
 
 <br> 
+
+[//]: # (@@author)
 
 <div style="text-align:center;">
     <br>
@@ -209,7 +213,7 @@ The table below summarizes the `add` command, format, and examples for each cont
 
 <div markdown="block" class="alert alert-warning">:exclamation: **Constraints:**<br>
 
-* Contact type, person / staff / supplier / maintainer, must match command used. `/add-person`, `/add-staff`, `/add-supplier` and `/add-maintainer` respectively.<br>
+* Contact type (person / staff / supplier / maintainer) must match the command used. `/add-person`, `/add-staff`, `/add-supplier` and `/add-maintainer` respectively.<br>
 
 * The fields `salary` and `employment` are only for Staff contact type.<br>
 
@@ -236,7 +240,7 @@ The table below summarizes the `add` command, format, and examples for each cont
 
 <div markdown="block" class="alert alert-primary">:bulb: **Tip:**<br>
 
-* You can use the `/undo` command to undo an `/add` command so that you can revert your changes!<br>
+* You can use the `/undo` command to undo an `/add-XYZ` command so that you can revert your changes!<br>
 
 </div>
 <div style="page-break-after: always;"></div>
@@ -271,7 +275,7 @@ The table below summarizes the `edit` command, format, and examples for each con
 
 <div markdown="block" class="alert alert-warning">:exclamation: **Constraints:**<br>
 
-* Contact type, person / staff / supplier / maintainer, must match command used. `/edit-person`, `/edit-staff`, `/edit-supplier`, and `/edit-maintainer` respectively.<br>
+* Contact type (person / staff / supplier / maintainer), must match the command used. `/edit-person`, `/edit-staff`, `/edit-supplier`, and `/edit-maintainer` respectively.<br>
 
 * `name` is a compulsory field that is case-insensitive and space-sensitive.<br>
 
@@ -605,6 +609,8 @@ Example: <br>
 
 <div style="page-break-after: always;"></div>
 
+[//]: # (@@author [jannaleong])
+
 #### Adding a note : `note`
 
 Adds a note to a specified person in your PoochPlanner so that you can keep track of any additional details regarding your contacts.
@@ -671,6 +677,8 @@ Add a note with a deadline:<br>
 </div>
 
 <div style="page-break-after: always;"></div>
+
+[//]: # (@@author)
 
 #### Undoing a command : `undo`
 
@@ -780,6 +788,8 @@ Below is an example of redoing an <code>add</code> command :
 
 </div>
 
+<div style="page-break-after: always;"></div>
+
 <div markdown="block" class="alert alert-primary">:bulb: **Tips:**<br>
 
 * `/redo` works on all commands that modify your contacts list. <br>
@@ -790,6 +800,7 @@ Below is an example of redoing an <code>add</code> command :
 
 <div style="page-break-after: always;"></div>
 
+[//]: # (@@author [jannaleong])
 
 #### Viewing help : `help`
 
@@ -874,6 +885,7 @@ Example: <br>
 
 </div>
 
+
 <div style="page-break-after: always;"></div>
 
 #### Clearing all contacts : `clear`
@@ -944,6 +956,8 @@ Example: <br>
 
 </div>
 
+[//]: # (@@author)
+
 <div style="page-break-after: always;"></div>
 
 ### Exiting the program : `exit`
@@ -968,6 +982,7 @@ Furthermore, certain manual edits that you make can cause your PoochPlanner to b
 
 <div style="page-break-after: always;"></div>
 
+[//]: # (@@author [jannaleong])
 ## Common Errors
 ### Unknown Command
 
@@ -1005,10 +1020,12 @@ If you encounter a missing field error, please ensure that the fields listed in 
 <div style="text-align:center;">
     <br>
     <img src="images/ug-images/error-images/missingField.png" alt="Add before" style="width:100%;"/>
-    <medium>The above image depicts a missing field error caused by a <code>note</code> command with missing fields for "name" and "note".</medium>
+    <medium>The above image depicts a missing field error caused by a <code>note</code> command with missing fields for <code>name</code> and <code>note</code>.</medium>
     <br>
 </div>
 <div style="page-break-after: always;"></div>
+
+[//]: # (@@author)
 
 ## FAQ
 ### Launching PoochPlanner
@@ -1019,12 +1036,12 @@ If you encounter a missing field error, please ensure that the fields listed in 
 **Method 1**: Using the Command Line
 1. Open the command line in your operating system's terminal software.
 2. Navigate to the directory where the JAR file is located.
-3. Enter `java -jar poochplanner.jar` and the PoochPlanner Application should launch.
+3. Enter `java -jar [CS2103T-W10-2][PoochPlanner].jar` and the PoochPlanner Application should launch.
 
 **Method 2**: Using `.bat`/`.sh` Scripts
 1. Create a new text file and paste the following line into the file:
    ```
-   java -jar [JAR file location]/poochplanner.jar
+   java -jar [JAR file location]/[CS2103T-W10-2][PoochPlanner].jar
    ```
 2. Save the file as `poochplanner.bat` (Windows) or `poochplanner.sh` (macOS/Linux).
 3. Change the admin settings of the script to allow it to run as a program:
@@ -1056,7 +1073,7 @@ If you encounter a missing field error, please ensure that the fields listed in 
 **A**: Data is saved in the hard disk automatically after any command that changes the data. There is no need to save manually.
 
 **Q**: If I have a lot of contacts, is there a way for me to access my most frequently used contacts easily?<br>
-**A**: Yes! You may wish to keep your most important contacts at the top of your contacts list. With our `pin` feature, PoochPlanner ensures that you are always to see them!<br><br>The syntax for the `pin` command is as follows:
+**A**: Yes! You may wish to keep your most important contacts at the top of your contacts list. With our `pin` feature, PoochPlanner ensures that you are always able to see them!<br><br>The syntax for the `pin` command is as follows:
 
 `/pin ; name : [name]`
 
@@ -1065,11 +1082,16 @@ If you encounter a missing field error, please ensure that the fields listed in 
 
 `/rate ; name : [name] ; rating : [rating]`
 
+<div style="page-break-after: always;"></div>
+
 **Q**: Can I append a note to a contact when creating it?<br>
-**A**: Yes you can! In fact, you may also rate a contact at its time of creation. Simply append the `; note :` prefix, and you should be on your way!<br><br>
+**A**: Yes you can! You may add a note to a contact at the time of its creation. Simply append the `; note :` prefix, and you should be on your way!<br><br>
 Example: Adding a new contact with a note and a rating
 
 `/add-person ; name : Pooch ; phone : 98883888 ; address : Pooch Street 32 ; email : impooch@gmail.com ; rating : 3 ; note : Hello my name is Pooch! `
+
+<div markdown="span" class="alert alert-info">:information_source: **Note:** While adding notes is permitted with the `add` command, we highly suggest you to make use of our `note` command if you would like to add a deadline to the note.</div>
+
 <div style="page-break-after: always;"></div>
 
 ## Known issues
