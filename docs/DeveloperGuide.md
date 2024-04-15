@@ -1521,16 +1521,16 @@ testers are expected to do more *exploratory* testing.
 
 1. Initial launch
 
-   1. Download the `poochplanner.jar` file and copy it into an empty folder
+   1. Download the `[CS2103T-W10-2][PoochPlanner].jar` file and copy it into an empty folder
 
-   2. Double-click the `poochplanner.jar` file.<br>
+   2. Double-click the `[CS2103T-W10-2][PoochPlanner].jar` file.<br>
        Expected: Shows the GUI with an empty contacts list.
 
 2. Saving window preferences
 
    1. Resize the window to an optimum size. Move the window to a different location. Close the window.
 
-   2. Re-launch the app by double-clicking the `poochplanner.jar` file.<br>
+   2. Re-launch the app by double-clicking the `[CS2103T-W10-2][PoochPlanner].jar` file.<br>
        Expected: The most recent window size and location is retained.
 
 <div style="page-break-after: always;"></div>
